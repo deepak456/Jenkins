@@ -1,6 +1,7 @@
 package com.demo.test;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public  class TestCase {
@@ -42,6 +43,7 @@ public  class TestCase {
     {
         if(5<8){
             System.out.println ("Test case Fail 6");
+            Assert.assertTrue (false);
         }else {
             System.out.println ("success 6");
         }
