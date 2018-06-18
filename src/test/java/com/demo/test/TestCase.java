@@ -56,7 +56,7 @@ public  class TestCase {
     @Test(priority = 10, alwaysRun = true, enabled = true)
     public void testMethod8()
     {
-        System.out.println("success 8");
+        System.out.println("success   8");
     }
 
 
