@@ -1,0 +1,17 @@
+<!--//TODO: Using TestNG suite.xml because of the interleaving bug. https://github.com/cbeust/testng/issues/106-->
+<!--//TODO: Should be removed once the bug is fixed-->
+<suite name="Manufacture TestData Config Tests" parallel="none" configfailurepolicy="continue" thread-count="1" preserve-order="true">
+
+    <!--Let the sanity test always be the first test so that it waits for the file watcher and upload engine to be up-->
+
+    <test name="Output1">
+
+        <classes>
+            <class name="com.demo.test.TestCase"/>
+
+
+        </classes>
+    </test>
+
+</suite>
+
