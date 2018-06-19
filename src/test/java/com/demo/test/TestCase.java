@@ -59,6 +59,13 @@ public  class TestCase {
         System.out.println("success   8");
       
     }
+@Test(priority = 10, alwaysRun = true, enabled = true)
+    public void testMethod9()
+    {
+        System.out.println("success   9");
+         System.out.println("Bye .............");
+      
+    }
 
 
 }
