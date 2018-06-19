@@ -57,6 +57,7 @@ public  class TestCase {
     public void testMethod8()
     {
         System.out.println("success   8");
+        System.out.println("bye bye   ");
     }
 
 
