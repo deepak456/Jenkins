@@ -9,6 +9,7 @@ public  class TestCase {
     @Test(priority = 10, alwaysRun = true, enabled = true)
   public void testMethod()
     {
+      Assert.assertTrue (false);
         System.out.println("success 1");
     }
 
