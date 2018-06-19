@@ -64,7 +64,7 @@ public  class TestCase {
     public void testMethod9()
     {
         System.out.println("success   9");
-         System.out.println(".....sdfasfasd............");
+         System.out.println("................");
       
     }
 
